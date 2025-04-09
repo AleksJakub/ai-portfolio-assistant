@@ -1,0 +1,34 @@
+1. Backend Requirements
+Python 3.8+
+
+pip (Python package installer)
+
+Install these libraries:
+
+pip install fastapi uvicorn openai pandas python-dotenv
+
+
+2. Frontend Requirements
+Node.js (v14+ recommended)
+
+npm or yarn package manager
+
+Required packages:
+
+npm install
+
+
+3. Start the Backend (FastAPI)
+
+from the backend folder, run this: 
+
+uvicorn main:app --reload
+
+4. Start the Frontend (React)
+
+in a separate terminal, from the frontend folder, run:
+
+npm start
+
+This launches the React app at http://localhost:3000.
+
